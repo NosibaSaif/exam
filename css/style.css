@@ -1,0 +1,258 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+/* navbar */
+.nav-item a:hover{
+    text-decoration: underline;
+ }
+ /* header */
+
+.header {
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+.overlayer{
+    background-color: rgba(0, 0, 0,.7);
+    overflow: auto;
+    height: 100%;
+    
+}
+
+
+.header span::after{
+    content: '';
+    animation: typing 3s infinite;
+}
+@keyframes typing{
+    2%{content: '|';}
+    4%{content: 'l|';}
+    6%{content: 'la|';}
+    8%{content: 'lar|';}
+    10%{content: 'larr|';}
+    12%{content: 'larry|';}
+    14%{content: 'larry |';}
+    16%{content: 'larry D|';}
+    18%{content: 'larry Da|';}
+    20%{content: 'larry Dan|';}
+    22%{content: 'larry Dani|';}
+    24%{content: 'larry Danie|';}
+    26%{content: 'larry Daniel|';}
+    28%{content: 'larry Danies|';}
+    30%{content: 'larry Danie|';}
+    32%{content: 'larry Danies|';}
+    34%{content: 'larry Daniel|';}
+    36%{content: 'larry Danie|';}
+    38%{content: 'larry Dani|';}
+    40%{content: 'larry Dan|';}
+    42%{content: 'larry Da|';}
+    44%{content: 'larry D|';}
+    46%{content: 'larry |';}
+    48%{content: 'larry|';}
+    50%{content: 'larry|';}
+    52%{content: 'larr|';}
+    54%{content: 'lar|';}
+    56%{content: 'la|';}
+    58%{content: 'l|';}
+    60%{content: '|';}
+62%{content: 'D|';}
+64%{content: 'De|';}
+66%{content: 'Des|';}
+68%{content: 'Desi|';}
+70%{content: 'Desig|';}
+72%{content: 'Design|';}
+73%{content: 'Designe|';}
+74%{content: 'Designer|';}
+75%{content: 'Designe|';}
+76%{content: 'Design|';}
+77%{content: 'Desig|';}
+78%{content: 'Desi|';}
+79%{content: 'Des|';}
+80%{content: 'De|';}
+81%{content: 'D|';}
+82%{content: '|';}
+83%{content: 'D|';}
+84%{content: 'De|';}
+85%{content: 'Dev|';}
+86%{content: 'Deve|';}
+87%{content: 'Devel|';}
+88%{content: 'Develo|';}
+89%{content: 'Develop|';}
+90%{content: 'Develope|';}
+91%{content: 'Developer|';}
+92%{content: 'Develope|';}
+93%{content: 'Develop|';}
+94%{content: 'Develo|';}
+95%{content: 'Devel|';}
+96%{content: 'Deve|';}
+97%{content: 'Dev|';}
+98%{content: 'De|';}
+99%{content: 'D|';}
+100%{content: '|';}
+}
+
+/* about */
+.bttn .btn1  button:hover {
+    background-color: aliceblue;
+    color: black;
+}
+.bttn .btn2   button:hover {
+    color: white;
+    background-color: black;
+   
+}
+.immgg {
+    background-image: url(../imgs/ddot.png);
+    background-size: cover;
+    background-position: center;
+}
+.immgg img{
+    width: 90%;
+    height: 90%;
+}
+/* SERVICES  */
+.icon{
+    width: 25%;
+    height: 25%;
+}
+
+.icon i:hover{
+    color: whitesmoke;
+    background-color: black;
+}
+.h22{
+    background-image: url(../imgs/dots.png)
+}
+.services h2{
+    background-image: url(../imgs/dots.png) ;
+    background-position: center;
+    width: 12%;
+    height: 7%;
+   
+}
+.services{
+    background-color: #f7f7f7;
+}
+
+/* portfolio */
+
+.port-caption{
+    background-color: #ffffff;
+    top:15px;
+    left:15px;
+    bottom: 15%;
+    right:15px;
+    opacity: 0;
+    transition:bottom 1s  , opacity .5s;
+}
+
+.port-item:hover .port-caption{
+    bottom: 15px;
+    opacity: 1;
+}
+.portfolio h2{
+    background-image: url(../imgs/dots.png) ;
+    background-position: center;
+    width: 12%;
+    height: 7%;
+   
+}
+
+/* clients */
+
+.imgg img{
+    width: 15%;
+    height: 15%;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.clients h2{
+    background-image: url(../imgs/dots.png) ;
+    background-position: center;
+    width: 12%;
+    height: 7%;
+   
+}
+.carousel{
+    background-color: #f7f7f7;
+}
+
+/* contact */
+.iconn{
+    width: 25%;
+    height: 25%;
+}
+
+.iconn i:hover{
+    color: whitesmoke;
+    background-color: black;
+}
+
+.btn11 button:hover
+{
+    background-color: aliceblue;
+    color: black;
+}
+.contact h2{
+    background-image: url(../imgs/dots.png) ;
+    background-position: center;
+    width: 15%;
+    height: 7%;
+   
+}
+
+/* team */
+.layerr{
+    background-color: #ffffff;
+    top:5px;
+    left:5px;
+    bottom: 5px;
+    right :5px;
+    opacity: 0;
+    transition:all 1s  , opacity .5s;
+    /* transition: all 1s; */
+}
+
+.imggg:hover .layerr{
+   
+    opacity: 1;
+    /* transform: translate(30px,30px); */
+/* transform: rotateY(0deg) scale(1,1);    */
+/* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+/* cursor: pointer;
+transform: rotateY(0deg) scale(1, 1); */
+transform: rotateY(180deg) scale(0.5,0.5);
+
+    
+}
+.layerr i:hover .sochial{
+background-color: #f7f7f7;
+color: black;
+
+
+}
+.team h2{
+    background-image: url(../imgs/dots.png) ;
+    background-position: center;
+    width: 15%;
+    height: 7%;
+   
+}
+
+.imggg{
+    overflow: hidden;
+}
+.card:hover img{
+    transform: scale(1.1,1.1);
+}
+.card img{
+    transition: transform 1s;
+}
